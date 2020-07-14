@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     // МЕТОДЫ ВЫБОРА ЭЛЕМЕНТОВ
 
-    // $(".inner").addClass('selected');
+     $(".inner").addClass('selected');
     // $(".inner").parent().addClass('selected');
     // $(".inner__nav").children().addClass('selected');
 

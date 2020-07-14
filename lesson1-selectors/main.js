@@ -1,54 +1,35 @@
 $(document).ready(function () {
 
-    // СЕЛЕКТОРЫ
+    // МЕТОДЫ ВЫБОРА ЭЛЕМЕНТОВ
 
-    // СЕЛЕКТОРЫ ПО ТЕГУ
+    // $(".inner").addClass('selected');
+    // $(".inner").parent().addClass('selected');
+    // $(".inner__nav").children().addClass('selected');
 
-    // $("h1").addClass('selected');
-    // $("p").addClass('selected');
-    // $("h2").addClass('selected');
-    // $("ul").addClass('selected');
-    // $("li").addClass('selected');
+    // ВОЗВРАЩАЕТ БЛИЖАЙШИЙ РОДИТЕЛЬСКИЙ УЗЕЛ
 
-    // СЕЛЕКТОРЫ ПО #id
+    // $("li#second-list-item").closest('ul').addClass('selected'); 
+    // $("li#second-list-item").closest('li').addClass('selected'); 
+    // $(".green").closest('ul').addClass('selected'); 
 
-    // $("#top-header").addClass('selected');
-    // $("#second-list-item").addClass('selected');
-    // $("#one-more-p").addClass('selected');
 
-    // СЕЛЕКТОРЫ ПО КЛАССУ
+    // $("#second-list-item").parents().addClass('selected');
+    // $("#second-list-item").parent().addClass('selected');
 
-    // $(".header-2").addClass('selected');
-    // $(".block").addClass('selected');
-    // $(".green").addClass('selected');
 
-    // КОМБИНИРОВАННЫЕ СЕЛЕКТОРЫ
+    // $(".block").find('h4').addClass('selected');
+    // $(".block").find('p.inner').addClass('selected');
 
-    // $("ul .green").addClass('selected');
-    // $("h2 ~ p").addClass('selected');
-    // $("h2 + p").addClass('selected');
 
-    // ПРОСТЫЕ ФИЛЬТРЫ
+    // $("h1").prev().addClass('selected');
+    // $("h1").next().addClass('selected');
 
-    // $("p:first").addClass('selected');
-    // $("p:last").addClass('selected');
-    // $("p:odd").addClass('selected'); // четные параграфы
-    // $("p:even").addClass('selected'); // нечетные параграфы
-    // $("p:eq(0)").addClass('selected');
-    // $("p:eq(3)").addClass('selected');
 
-    // ФИЛЬТРЫ ПО СОДЕРЖИМОМУ
+    // $("p").prev().addClass('selected');
+    // $("p").prev('h2').addClass('selected');
 
-    // $("h3:has(span)").addClass('selected');
-    // $(".block:parent").addClass('selected');
-    // $(".block:empty").addClass('selected');
-
-    // ФИЛЬТРЫ ПО АТТРИБУТАМ
-
-    // $("a").addClass('selected');
-    // $('a[href="http://google.ua"]').addClass('selected');
-    // $('a[href!="http://google.ua"]').addClass('selected');
-    // $('a[href^="http://"]').addClass('selected');
-    // $('a[href$=".ua"]').addClass('selected');
+    
+    // $("#second-list-item").siblings().addClass('selected');
+    // $("#second-list-item").siblings('.green').addClass('selected');
 
 });

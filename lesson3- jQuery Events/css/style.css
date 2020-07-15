@@ -1,0 +1,38 @@
+body{
+    margin: 10px;
+    padding: 10px;
+}
+
+.pink {
+    color: pink;
+}
+
+.test-box {
+    width: 400px;
+    display: block;
+    background-color: saddlebrown;
+    color: snow;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: 18px;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.orangeBg {
+    background-color: orange;
+}
+
+input[type="text"]:hover, input[type="text"]:focus {
+    outline: none;
+}
+
+.focus {
+    
+    border: 2px solid #1565C0 !important;
+
+    box-shadow: 0px 1px 25px #64B5F6;
+
+}

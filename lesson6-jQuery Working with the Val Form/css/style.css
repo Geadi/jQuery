@@ -1,0 +1,33 @@
+body{
+    padding: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#formSum {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: lavender;
+    padding: 40px 30px 10px 30px;
+}
+
+.submit-btn {
+    width: 130px;
+    height: 30px;
+    margin: 10px;
+    border: 1px dashed black;
+    background-color: greenyellow;
+    opacity: 0.8;
+    border-radius: 3px;
+}
+
+.numberTwo {
+    margin-top: 17px;
+}
+
+#sumResult {
+    font-weight: 700;
+    color: green;
+}
